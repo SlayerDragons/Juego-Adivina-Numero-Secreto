@@ -179,28 +179,3 @@ function sumaListas(lista1, lista2)
 
     return resultadoSumaListas;
 }
-
-//Listas a Sumar
- let listaA = [8, 27, 64];
- let listaB = [4, 9, 16];
- let listaC = [6, 12, 18, 24];
-
- let resultadoSuma = sumaListas(listaA, listaC);
- console.log(resultadoSuma);
-
- function calcularCuadrados(lista) 
- {
-    let listaCruadrados = [];
-
-    for (let i = 0; i < lista.length; i++) {
-        listaCruadrados.push(Math.pow(lista[i], 2));
-    }
-    return listaCruadrados;
- }
-
- //Ejemplo de uso:
- let numerosSinElevar = [2,3,4,5,6];
- let elevados = calcularCuadrados(numerosSinElevar);
-
- console.log('Original: ', numerosSinElevar);
- console.log('Cuadrados: ', elevados);
